@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./styles/main.css">
   
   <title>Frontend Mentor | Calculator app</title>
 
@@ -15,12 +17,42 @@
   </style>
 </head>
 <body>
+  <main>
+    <div class="container">
+      <div class="header__calc">
+        <p>Calc</p>
+        <div class="calc__nav">
+          <p>Theme</p>
+          <i class="dark-mode">i</i>
+        </div>
+      </div>
 
+      <div class="calc__input">
+        <p id="result" class="result"></p>
+      </div>
 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+      <div class="calc__bottons">
+        <div class="seven">7</div>
+        <div class="eigth">8</div>
+        <div class="nine">9</div>
+        <div class="four"4></div>
+        <div class="five">5</div>
+        <div class="six">6</div>
+        <div class="one">1</div>
+        <div class="two">2</div>
+        <div class="three">3</div>
+        <div class="zero">0</div>
+        <div class="del">DEL</div>
+        <div class="sumar">+</div>
+        <div class="restar">-</div>
+        <div class="multiplicar">*</div>
+        <div class="dividir">/</div>
+        <div class="punto">.</div>
+
+        <div class="reset">Reset</div>
+        <div class="equals">=</div>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
